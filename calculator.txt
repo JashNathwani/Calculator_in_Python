@@ -1,0 +1,14 @@
+x = int(input('Enter a number: '))
+y = int(input('Enter another number: '))
+operation = input('Enter an operation (+, -, *, /): ')
+
+if (operation == '+'):
+  print(x+y)
+elif (operation == '-'):
+  print(x-y)
+elif (operation == '*'):
+  print(x*y)
+elif (operation == '/'):
+  print(x/y)
+else:
+  print("I do not understand that operation")
